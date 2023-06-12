@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+    <title>Controle Financeiro</title>
+</head>
+<body>
+    <h1 class="titulo">Aplicativo de controle financeiro</h1>
+    <a class="button" name="login" href="{{url_for('login')}}">Login</a>
+    <a class="button" name="cadastrar" href="{{url_for('signup')}}">Criar conta</a>
+    <a class="button" name="sobre" href="{{url_for('about')}}">Sobre</a>
+</body>
+</html>

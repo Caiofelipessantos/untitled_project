@@ -1,0 +1,91 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.titulo {
+    font-size: xx-large;
+    text-align: left;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section.sobre {
+    margin: 3em;
+}
+
+.erro {
+    color: red;
+}
+
+a {
+    color:rgb(50, 50, 230);
+    background-color: white;
+    padding: 12px;
+    border: solid 1px rgb(50, 50, 230);
+    border-radius: 15px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: rgb(50, 50, 230);
+    color: white;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a#redireciona {
+    text-decoration: none;
+    padding: 0px;
+    border: unset;
+}
+
+a#redireciona:hover {
+    text-decoration: none;
+    padding: 0px;
+    background-color: unset;
+    color: rgb(50, 50, 230);
+    border: unset;
+}
+
+form {
+    padding: 5% 5%;
+    box-shadow: 5px 2px 6px rgb(168, 168, 168);
+    border-radius: 12px;
+}
+
+input {
+    color:rgb(20, 20, 20);
+    background-color: rgb(240, 240, 240);
+    padding: 8px;
+    border: solid 1px rgb(20, 20, 20);
+    border-radius: 10px;
+}
+
+input.enviar {
+    color:rgb(60, 60, 60);
+    background-color: white;
+    padding: 12px;
+    border: solid 1px rgb(60, 60, 60);
+    border-radius: 15px;
+}
+
+input.enviar:hover {
+    background-color: rgb(60, 60, 60);
+    color: white
+}
